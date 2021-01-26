@@ -1,21 +1,22 @@
-import java.util.Scanner;
-import java.io.File;
-import java.io.FileNotFoundException;
-
+import javax.swing.*;
+import java.util.Arrays;
 
 
 public class HangMan {
     public static void main(String[] args) {
-        String randomword = pickarandomword();
-    }
 
-    private static String pickarandomword() {
-        File myObj = new File("words.txt");
-        Scanner myReader = new Scanner(myObj);
-        while (myReader.hasNextLine()) {
-            String Word = myReader.nextLine();
-            System.out.println(Word);
+        String answer;
+        String[] randomwords = {"oga", "ploppsie", "ogabobpsie"};
+
+        answer = randomwords[(int)(Math.random()*randomwords.length)];
+        System.out.println(answer);
+
+        char playerguess;
+        char[] characters = new char[answer.length()];
+        for(int i = 0; i <= answer.length() - 1; i++){
+            characters[i] = answer.charAt(i);
         }
-        return null;
+        JOptionPane.showInputDialog(Arrays.toString(characters));
+
     }
 }
