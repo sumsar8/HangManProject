@@ -16,7 +16,8 @@ public class HangMan {
         for(int i = 0; i <= answer.length() - 1; i++){
             characters[i] = answer.charAt(i);
         }
-        JOptionPane.showInputDialog(Arrays.toString(characters));
-
+        char playerguess = JOptionPane.showInputDialog("What is your guess?");
+        int compareplayerans = Character.compare(playerguess, characters[];
     }
 }
+//JOptionPane.showInputDialog(Arrays.toString(characters));
