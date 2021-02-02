@@ -11,13 +11,19 @@ public class HangMan {
         answer = randomwords[(int)(Math.random()*randomwords.length)];
         System.out.println(answer);
 
-        char playerguess;
         char[] characters = new char[answer.length()];
+
         for(int i = 0; i <= answer.length() - 1; i++){
             characters[i] = answer.charAt(i);
         }
-        char playerguess = JOptionPane.showInputDialog("What is your guess?");
-        int compareplayerans = Character.compare(playerguess, characters[];
+
+        String playerguess = JOptionPane.showInputDialog("What is your guess?");
+        char playerguesschar = playerguess.charAt(0);
+
+        for(int i = 0; i <= answer.length() - 1; i++){
+        if(playerguesschar == answer.charAt(i)) {
+            JOptionPane.showMessageDialog(null, answer.charAt(i));
+            }
+        }
     }
 }
-//JOptionPane.showInputDialog(Arrays.toString(characters));
