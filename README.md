@@ -9,3 +9,6 @@ Nästa gång ska jag få det att fungera.
 2021/01/26
 Idag har jag börjat på nytt pga att allt var konstigt så jag har gjort en random word selector från en array. 
 Nästa gång ska jag läsa av varje bokstav och jämföra om det är samma som spelarens bokstav.
+
+2021/01/29
+Idag har jag försökt göra en char comparer men det blev fel för jag har en array av chars istället för en char.
