@@ -8,7 +8,8 @@ Bakgrund
 I bakgrunden redogör du för projektets delar, här sammanfattar du din arbetsprocess. Beskriv den teknik du har använt och motivera valet av den. Berätta om ditt planeringsarbete. Försök att inte vara värderande, utan redogör för projektet, hur arbetet gick och dina erfarenheterna skriver du om i de följande delarna.
 
 Hittills har jag en random word generator och en letter comparer så att jag ser om jag har skrivit rätt bokstav eller inte. Det har generellt gått hyfsat. 
-Jag fick några problem i början för att jag försökte ta ordet ur en list istället för en array vilket är mycket svårare så jag började om med att bara göra en random word generator från en array.
+Jag fick några problem i början för att jag försökte ta ordet ur en list istället för en array vilket är mycket svårare så jag började om med att bara göra en random word generator från en array. 
+Jag gjorde en mindmap liknande lista som 
 Berätta om hur du har testat din produkt.
 
 I bakgrunden kan du med fördel inkludera bilder som beskriver och förklarar projektet.
